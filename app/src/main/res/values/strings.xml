@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Project 1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="fontpage">Front Page</string>
+    <string name="link">image details </string>
+</resources>

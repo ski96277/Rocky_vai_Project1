@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.imransk.project1.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <!--<RelativeLayout-->
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+        </android.support.v4.view.ViewPager>
+
+
+        <LinearLayout
+            android:id="@+id/slider_dots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewPager"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/slider_dots"
+            android:background="#151313"
+            android:gravity="center"
+            android:text="@string/fontpage"
+            android:textColor="#f7f4f4"
+            android:textSize="30sp" />
+
+
+        <ListView
+            android:id="@+id/listnews"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_below="@id/textView2"
+            android:background="?attr/colorButtonNormal" />
+
+
+    </RelativeLayout>
+<!--</ScrollView>-->
